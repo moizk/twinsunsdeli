@@ -29,12 +29,12 @@ div.tws-hero {
   /* Positioning */
   /* Box-model */
   margin: 0 auto;
-  height: 980px;
+  height: 1080px;
   padding-top: 200px;
   /* Typography */
   text-align: center;
   /* Visual */
-  background-image: url('../img/bg1.jpg');
+  background-image: url('../img/bg2.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -42,9 +42,40 @@ div.tws-hero {
   /* Misc */
 }
 
+div.tws-card {
+  /* Positioning */
+  /* Box-model */
+  width: 50%;
+  max-width: 500px;
+  padding: 50px;
+  margin: 0 auto;
+  /* Typography */
+  /* Visual */
+  background-color: #162a1a;
+  background-image: url('../img/card-texture.png');
+  background-size: cover;
+  background-position: center;
+  /* Misc */
+  h5 {
+    /* Positioning */
+    /* Box-model */
+    margin-top: 50px;
+    margin-bottom: 0;
+    /* Typography */
+    letter-spacing: 2px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+    /* Visual */
+    color: #c7cc5c;
+    /* Misc */
+  }
+}
+
 img#logo {
   /* Positioning */
   /* Box-model */
+  max-width: 350px;
   /* Typography */
   /* Visual */
   /* Misc */
