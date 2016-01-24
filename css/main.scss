@@ -34,12 +34,15 @@ div.tws-hero {
   /* Typography */
   text-align: center;
   /* Visual */
-  background-image: url('../img/bg2.jpg');
+  background-image: url('../img/bg3.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: #fff;
   /* Misc */
+  @media screen and (max-width: 540px) {
+    height: 600px;
+  }
 }
 
 div.tws-card {
