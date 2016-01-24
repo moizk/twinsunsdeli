@@ -59,14 +59,18 @@ div.tws-card {
   background-size: cover;
   background-position: center;
   /* Misc */
+  a {
+    color: #c7cc5c;
+  }
   h5 {
     /* Positioning */
     /* Box-model */
     margin-top: 50px;
     margin-bottom: 0;
     /* Typography */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     letter-spacing: 2px;
-    font-size: 10px;
+    font-size: 14px;
     text-transform: uppercase;
     font-weight: 800;
     /* Visual */
