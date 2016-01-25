@@ -75,6 +75,9 @@ div.tws-card {
     /* Visual */
     color: #c7cc5c;
     /* Misc */
+    @media screen and (max-width: 540px) {
+      margin-top: 25px;
+    }
   }
 }
 
