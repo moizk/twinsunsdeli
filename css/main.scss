@@ -100,3 +100,31 @@ img#logo {
   margin-right: auto;
   margin-left: auto;
 }
+
+div.tws-menu-bg {
+  background-color: #162a1a;
+  background-image: url('../img/bg-menu.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+div.tws-menu {
+  /* Positioning */
+  /* Box-model */
+  width: 95%;
+  max-width: 600px;
+  padding: 40px;
+  margin: 0 auto;
+  /* Typography */
+  font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  text-align: center;
+  /* Visual */
+  background-color: #162a1a;
+  background-image: url('../img/card-texture.png');
+  background-size: cover;
+  background-position: center;
+  color: #c7cc5c;
+  /* Misc */
+}
